@@ -1,0 +1,6 @@
+gradio
+pdfplumber
+sentence-transformers
+wordcloud
+matplotlib
+nltk
