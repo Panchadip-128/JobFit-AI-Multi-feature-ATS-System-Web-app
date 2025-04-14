@@ -86,10 +86,9 @@ Email Sent: Confirmation of the email invitation sent to the candidate.
 
 ## Notes
 - The tool does not require any pre-existing datasets. All analysis is performed dynamically on the uploaded resume and provided job description.
-
 - It uses NLP techniques such as sentence embeddings for semantic comparison and cosine similarity to calculate the match between the job description and the resume.
-
 - Stopword removal and keyword extraction are based on NLP libraries like NLTK.
+- Email functionality works locally but may fail on Hugging Face Spaces due to restricted network access to SMTP servers (Huggingface Free tier limitations)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
