@@ -89,6 +89,7 @@ Email Sent: Confirmation of the email invitation sent to the candidate.
 - It uses NLP techniques such as sentence embeddings for semantic comparison and cosine similarity to calculate the match between the job description and the resume.
 - Stopword removal and keyword extraction are based on NLP libraries like NLTK.
 - Email functionality works locally but may fail on Hugging Face Spaces due to restricted network access to SMTP servers (Huggingface Free tier limitations)
+- Use app-specific password for Gmail or SMTP, currently its a dummy value, you can find it under your google account -> Less Secure apps/ Set app passwords
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
