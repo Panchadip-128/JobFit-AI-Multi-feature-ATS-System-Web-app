@@ -43,15 +43,15 @@ WordCloud: Generates word clouds for visualization of keywords.
 SMTP: Used for sending interview invitation emails.
 
 ## Installation
-Clone the repository:
+- Clone the repository:
 
-git clone https://github.com/yourusername/AI-Resume-ATS-Evaluator.git
+git clone https://github.com/Panchadip-128/JobFit-AI-Multi-feature-ATS-System-Web-app
 cd AI-Resume-ATS-Evaluator
-Install the required dependencies:
 
+- Install the required dependencies:
 pip install -r requirements.txt
-Run the application:
 
+- Run the application:
 python app.py
 Visit http://0.0.0.0:7860 in your browser to interact with the application.
 
